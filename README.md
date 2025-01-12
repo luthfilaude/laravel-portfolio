@@ -44,6 +44,32 @@ Before you begin, ensure you have the following installed:
    ```bash
    git clone https://github.com/luthfilaude/laravel-portfolio.git
    cd laravel-portfolio
+2. Install dependencies:
+    ```bash
+    composer install
+    npm install
+    npm run dev
+3. Configure the environment:
+- Copy the .env.example file and rename it to .env:
+    ```bash
+    cp .env.example .env
+- Update database credentials and other settings in the .env file.
+4. Generate the application key:
+    ```bash
+    php artisan key:generate
+5. Run database migrations:
+    ```bash
+    php artisan migrate
+6. Start the local development server:
+    ```bash
+    php artisan serve
+
+## 📂 Project Structure
+Key directories in this project:
+- app/: Application logic (Models, Controllers, etc.)
+- resources/views/: Blade templates for frontend.
+- public/: Public assets (CSS, JS, images).
+- routes/web.php: Web routes for the application.
 
 ## License
 
