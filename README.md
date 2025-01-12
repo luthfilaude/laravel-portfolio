@@ -71,6 +71,12 @@ Key directories in this project:
 - public/: Public assets (CSS, JS, images).
 - routes/web.php: Web routes for the application.
 
+## 📬 Contact
+If you have any questions or feedback, feel free to reach out:
+- Email: [lutxise.business@gmail.com](mailto:lutxise.business@gmail.com)
+- GitHub: [luthfilaude](https://github.com/luthfilaude)
+- LinkedIn: [Muhamad Luthfi Novianto](https://linkedin.com/in/mluthfin)
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
